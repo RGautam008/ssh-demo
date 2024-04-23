@@ -1,0 +1,979 @@
+    1  whoami
+    2  pwd
+    3  cd /var/log
+    4  cat auth.og
+    5  cat auth.log
+    6  tail auth.og
+    7  tail auth.log
+    8  clear
+    9  ifconfig
+   10  sudo apt install net-tools
+   11  ifconfig
+   12  ipconfig
+   13  whoami
+   14  cd ..
+   15  cd desktop
+   16  cd Desktop
+   17  pwd
+   18  cd /home/Desktop
+   19  cd /var
+   20  ifconfig
+   21  cd /
+   22  cd ..
+   23  cd Ubuntu Desktop
+   24  cd /home
+   25  ls
+   26  cd jones
+   27  ls -l
+   28  cd Desktop
+   29  mkdir file1
+   30  mkdir -p file1/a/b/c
+   31  ls file1
+   32  ls file1 -p
+   33  ls file1 -a
+   34  rm -p file1
+   35  rm --p file1
+   36  rmdir --p file1
+   37  rmdir --p file1/a/b/c
+   38  clear
+   39  apt get install git
+   40  apt-get install git
+   41  sudo apt-get install git
+   42  git
+   43  git help
+   44  clear 
+   45  git help -a
+   46  clear
+   47  top
+   48  git --version
+   49  git --help
+   50  git help -g
+   51  git help -a
+   52  git commit
+   53  cd /home/git
+   54  find *.git
+   55  cd 
+   56  pwd
+   57  cd root
+   58  cd /
+   59  cd ..
+   60  cd
+   61  cd Desktop
+   62  cd
+   63  git repo
+   64  mkdir file1
+   65  rmdir file1
+   66  cd Desktop
+   67  mkdir file1
+   68  cd file1
+   69  cd ..
+   70  mv file1 dir1
+   71  cd dir1
+   72  touch file1.txt
+   73  cat > file1.txt
+   74  cat file1
+   75  cat file1.txt
+   76  clear
+   77  vi file1.txt
+   78  cat file1.txt
+   79  cat file1.txt -n
+   80  vim file1.txt
+   81  sudo apt install vim
+   82  vim file1.txt
+   83  cat file1.txt
+   84  top -h
+   85  top
+   86  clear
+   87  echo " global regular expression print"
+   88  grep line file1.txt
+   89  cat /var/log/auth.log >> file1.txt
+   90  cat file1.txt
+   91  cat file1.txt | grep uid
+   92  cat file1.txt | grep cron
+   93  grep "cron" file1.txt
+   94  grep line file.txt
+   95  grep "line" file1.txt
+   96  grep -c file1.txt
+   97  grep -c "cron" file1.txt
+   98  grep -o "cron" file1.txt
+   99  cat file1.txt -c 
+  100  cat -c file1.txt
+  101  cat file1.txt -n
+  102  cat ls -al > file1.txt
+  103  cat ls -al >> file1.txt
+  104  cat ls  >> file1.txt
+  105  cat /var/log/auth.log >> file1.txtls 
+  106  ls -l >> file1.txt
+  107  cat file1.txt
+  108  sudo
+  109  su -i
+  110  su i
+  111  su -- help
+  112  su --help
+  113  sudo -i
+  114  man cal
+  115  cal
+  116  sudo apt intall ncal
+  117  sudo apt intall cal
+  118  cal
+  119  yum intall --help
+  120  yum --help
+  121  ls
+  122  pwd
+  123  cal
+  124  sudo apt install ncal
+  125  ls
+  126  ls -l
+  127  ls /*.log
+  128  ls /var/log
+  129  ls /var/log/syslog
+  130  cat /var/log/syslog
+  131  ll
+  132  ls -l
+  133  ls -al
+  134  clear
+  135  rmdir --p dir
+  136  rmdir --p dir1
+  137  cd Desktop
+  138  rmdir --p dir1
+  139  rm --p dir1
+  140  tree
+  141  sudo apt intall tree
+  142  apt-get install python
+  143  sudo apt-get install python
+  144  cat/dev/sda
+  145  cat /dev/sda
+  146  sudo cat /dev/sda
+  147  pwd
+  148  cd dir1
+  149  ls 
+  150  ls -l
+  151  rm file1.txtls
+  152  ls
+  153  ls file1.txt
+  154  ls -l file1.txt
+  155  touch file1.txt 
+  156  ls -l file1.txt
+  157  chmod 400 file1.txt
+  158  ls -l file1.txt
+  159  chmod 664 file1.txt 
+  160  ls -l file1.txt
+  161  git --version
+  162  touch file2.txt
+  163  ls 
+  164  ls -l
+  165  cd ..
+  166  cd /var/log
+  167  cat kern.log
+  168  tail -f auth.log
+  169  df -h
+  170  df -hT
+  171  cd ..
+  172  cd Desktop
+  173  cd ..
+  174  exit
+  175  cd /home/Desktop
+  176  cd Jones
+  177  cd /home
+  178  cd Desktop
+  179  cd ..
+  180  pwd
+  181  whoami
+  182  cd /jones
+  183  whoami\
+  184  pwd
+  185  cd /Desktop
+  186  ls
+  187  sudo -i
+  188  ls
+  189  cd home
+  190  ls
+  191  cd..
+  192  cd 
+  193  ls
+  194  cd Desktop
+  195  cd dir1
+  196  ls
+  197  cd ..
+  198  cd
+  199  yum intall python
+  200  sudo apt install yum
+  201  sudo yum install python
+  202  sudo -i
+  203  yum intall python3
+  204  sudo yum install python3
+  205  sudo apt-get  install python3
+  206  python
+  207  python3
+  208  sudo -s
+  209  ls
+  210  cd /home
+  211  ls
+  212  sudo userdel Jones2 
+  213  ls
+  214  sudo userdel -r Jones2 
+  215  ls
+  216  cd ..
+  217  cd /home
+  218  ls
+  219  cd
+  220  pwd
+  221  sudo -u Jones2
+  222  sudo useradd Jones2 -m -s /bin/bash
+  223  cd /bin/bash
+  224  cd /home
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd /bin/bash
+  229  bd /bin
+  230  cd bin
+  231  ls
+  232  cd bash
+  233  ls -l
+  234  ll
+  235  ls -al
+  236  cd ..
+  237  ls
+  238  cat etc/password
+  239  cd etc
+  240  ls
+  241  cd /passwd
+  242  cat passwd
+  243  cd ..
+  244  cat /bin/bash
+  245  cat /etc/passwd
+  246  cd /home
+  247  ls
+  248  userdel Jones2
+  249  sudo userdel Jones2
+  250  ls
+  251  ls -l
+  252  ls
+  253  cd ..
+  254  ls
+  255  grep "jones" /etc/passwd
+  256  cd
+  257  cd dir1
+  258  ls
+  259  cd Desktop
+  260  cd dir1
+  261  ls
+  262  sed -e 's/line/LINE' file1
+  263  sed -e 'S/line/LINE' file1
+  264  sed -e 's/line/LINE/' file1
+  265  sed -e 's/line/LINE/' file1.txt
+  266  cat file1.txt
+  267  cat >> file1.txt
+  268  cat file.txt
+  269  cat file1.txt
+  270  sed -e 's/line/LINE/' file1.txt
+  271  sed 's/line/LINE/' file1.txt
+  272  cat file1.txt
+  273  sed 's/line/LINE/' file1.txt
+  274  cat file1.txt
+  275  history
+  276  history >> file1.txt
+  277  cat file1.txt
+  278  cd .. 
+  279  cd ..
+  280  ls
+  281  cat /bin/bash
+  282  cd /home
+  283  ls
+  284  cd Jones
+  285  ls jones
+  286  ls Jones2
+  287  sudo ls Jones2
+  288  ls Jones2
+  289  cat proc
+  290  ls
+  291  cd
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd /proc
+  296  ls
+  297  cat keys
+  298  pwd
+  299  cd ..
+  300  ls
+  301  cd /home
+  302  ls
+  303  cd ..
+  304  cddev
+  305  cd dev
+  306  ls
+  307  ls sda
+  308  cd ..
+  309  cd user
+  310  cd usr
+  311  ls
+  312  cd ..
+  313  cd opt
+  314  ls
+  315  ls -a
+  316  cd ..
+  317  cd tmp
+  318  ls
+  319  cd ..
+  320  cd /usr/bin
+  321  ls
+  322  cd ..
+  323  cd
+  324  ls
+  325  cd home
+  326  cd Desktop
+  327  cd
+  328  cd..
+  329  cd ..
+  330  pwd
+  331  ls
+  332  cd /usr/sbin
+  333  ls
+  334  cd ..
+  335  cd root
+  336  apt-get pkgnames
+  337  apt-cache pkgnames
+  338  apt-cache pkgnames | grep "python"
+  339  wc apt-cache pkgnames | grep "python" 
+  340  apt-cache pkgnames | grep "python" -n
+  341  python3 
+  342  apt-cache search python3
+  343  apt-cache search python3 -n
+  344  apt-cache search python3 | wc -l
+  345  apt-cache show python3 
+  346  apt-cache search httpd
+  347  apt-cache show  httpd
+  348  apt-cache show httpd
+  349  yum install httpd
+  350  sudo yum install httpd
+  351  sudo apt-get install httpd
+  352  which vi
+  353  which yum
+  354  which rm
+  355  apt-cache show python3 
+  356  cd /home
+  357  ls
+  358  su -Jones2
+  359  su -jones2
+  360  su - Jones2
+  361  apt-cache show python3 
+  362  useradd --help
+  363  u -i
+  364  su -i
+  365  sudo -s
+  366  apt-cache show python3 
+  367  sudo adduser jones3
+  368  ls
+  369  su - jones3
+  370  sudo userdel -r jones3
+  371  cd 
+  372  cd /
+  373  ls
+  374  sudo userdel -r jones3
+  375  cd home
+  376  sudo userdel -r jones3
+  377  ls
+  378  cd 
+  379  cd /
+  380  sudo userdel -r Jones2
+  381  cd home
+  382  ls
+  383  sudo apt-get install eclipse
+  384  ls
+  385  cd
+  386  ls
+  387  cd Desktop
+  388  cd dir1
+  389  ls
+  390  cat > file2.txt
+  391  cat file2.txt
+  392  ls -l
+  393  git init
+  394  ls -al
+  395  ls -l
+  396  cd ..
+  397  mv dir1 project1
+  398  cd project1
+  399  ls -al
+  400  git status
+  401  git remote add origin git@github.com:RGautam008/project1.git
+  402  git status
+  403  git add file2.txt
+  404  git status
+  405  git commit -m " first commit"
+  406  git status
+  407  git config --global --edit
+  408  git config
+  409  cat *.gitconfig
+  410  cat *.config
+  411  git config --global --edit
+  412  git status
+  413  git commit -m " first commit"
+  414  git config --global user.email "rakeshgautam008@gmail.com"
+  415  git config --global user.name "jones"
+  416  git status
+  417  git commit -m "first commit"
+  418  git status
+  419  git add file2.txt
+  420  git status
+  421  git add file1.txt
+  422  git status
+  423  git restore --staged file1.txt
+  424  git status
+  425  git add file1.txt
+  426  git status
+  427  git commit -m "adding file1 to repo"
+  428  git status
+  429  ls
+  430  git ls-files
+  431  git log
+  432  ls
+  433  cat file2.txt
+  434  vim file2.txt
+  435  cat file2.txt
+  436  vim file2.txt
+  437  cat file2.txt
+  438  git status
+  439  ls
+  440  ls git-files
+  441  git ls-files
+  442  ls -al
+  443  rm .file.txt.swp
+  444  git status
+  445  git commit -a -m " modified second file"
+  446  git status
+  447  ls
+  448  git ls-files
+  449  git status
+  450  git add .file2.txt.swp
+  451  git status'
+
+
+
+
+
+
+
+
+exit
+
+  452  git status
+  453  git commit -m "adding swp file"
+  454  git status
+  455  git ls-files
+  456  rm .file2.txt.swp
+  457  git status
+  458  git commit -a -m " del swp file"
+  459  git status
+  460  git ls-files
+  461  git rm --cached file2.txt
+  462  ls
+  463  git ls-files
+  464  git status
+  465  git ls-files
+  466  git rm --cached file2.txt
+  467  git status
+  468  vim .gitignore
+  469  cat .gitignore
+  470  git status
+  471  git add .gitignore 
+  472  git status
+  473  git commit -m "adding gitignore files"
+  474  git status
+  475  git ls-files
+  476  ls
+  477  vim .gitignore 
+  478  cat .gitignore 
+  479  git status
+  480  git commit -a -m " modified ignr file"
+  481  git status
+  482  git add file2.txt
+  483  git commit -m " add file2 again"
+  484  git status
+  485  ls
+  486  git ls-files
+  487  ls
+  488  git ls-files
+  489  cat > file3.txt
+  490  vim file3.txt
+  491  git status
+  492  vim file4.html
+  493  git status
+  494  vim .gitignore
+  495  git status
+  496  git commit -a -m " add ignore file "
+  497  git status
+  498  git add file4.html
+  499  git commmit -m "added html file"
+  500  git status
+  501  git commit file4.html -m "added html file"
+  502  git status
+  503  ls
+  504  git ls-file
+  505  git ls-files
+  506  git rm --cached file2.txt
+  507  git status
+  508  git commit -a -m "del file"
+  509  git status
+  510  ls 
+  511  git ls-files
+  512  git add file2.txt
+  513  git status
+  514  git commit file2.txt -m "added again"
+  515  git status
+  516  git log
+  517  git log --help
+  518  git log oneline
+  519  git log onelines
+  520  git log oneliner
+  521  git log oneliners
+  522  git log --oneline
+  523  git restore --help
+  524  git restore 3cd3384 
+  525  git restore origin 3cd3384 
+  526  vi myscript.sh
+  527  sh myscript.sh
+  528  sudo sh myscript.sh
+  529  vim myscript.sh
+  530  sudo sh myscript.sh
+  531  vim myscript.sh
+  532  sudo sh myscript.sh
+  533  vim myscript.sh
+  534  sudo sh myscript.sh
+  535  echo $?
+  536  ls
+  537  cd ..
+  538  ls
+  539  cd
+  540  cd..
+  541  cd ..
+  542  ls
+  543  cd ..
+  544  ls
+  545  cd /var/log
+  546  caat auth.log
+  547  tail auth.log
+  548  cd ..
+  549  cd
+  550  ls
+  551  cd Desktop
+  552  ls
+  553  cd project1
+  554  ls
+  555  vim myscript.sh
+  556  cd ..
+  557  cd 
+  558  cd /
+  559  ls
+  560  cd project1
+  561  ls
+  562  cat auth.log
+  563  sudo tail auth.log
+  564  cd ..
+  565  ls
+  566  cd project
+  567  ls
+  568  cd ..
+  569  rmdir -r project
+  570  rmdir  project
+  571  sudo rmdir project
+  572  sudo rmdir --p project
+  573  rmdir  project
+  574  sudo rmdir -r project
+  575  sudo rmdir -f project
+  576  sudo rmdir --f project
+  577  sudo rmdir --r project
+  578  cd project
+  579  rm auth.log
+  580  sudo rm auth.log
+  581  cd ..
+  582  ls
+  583  rmdir  project
+  584  sudo rmdir  project
+  585  cd project1
+  586  sudo rm auth.log
+  587  cd ..
+  588  ls
+  589  sudo rmdir project1
+  590  ls
+  591  cd root
+  592  sudo cd .root
+  593  sudo cd /root
+  594  cd /root
+  595  ls
+  596  cd dev
+  597  cd ..
+  598  cd root
+  599  sudo cd root
+  600  cd /bin/bash
+  601  cd /bin
+  602  ls
+  603  ls | grep myscript.sh
+  604  ls | grep myscript
+  605  grep "myscript" 
+  606  grep "myscript" ls
+  607  grep "myscript" /bin
+  608  find myscript
+  609  find "myscript"
+  610  cat bash
+  611  cd ..
+  612  ls
+  613  ls -al
+  614  ls -l
+  615  grep tmp 
+  616  cd
+  617  cd Desktop
+  618  ls
+  619  cd project1
+  620  ls
+  621  cat file2.txt\
+  622  cat file2.txt
+  623  sed %s/line/LINE/g file2.txt
+  624  sed -e  s/line/LINE/g file2.txt
+  625  ls
+  626  sudo git ls-files
+  627  git push origin main
+  628  git push origin main 'github.com:RGautam008/project1.git'~
+  629  git push origin main github.com/RGautam008/project1.git
+  630  git push -u origin main
+  631  cmdkey /list
+  632  git branch
+  633  git branch -M main 
+  634  git push -u origin main
+  635  sudo git push origin main
+  636  ssh-keygen -t ed25519 -C "rakeshgautam008@gmail.com"
+  637  sudo git push origin main
+  638  cd /home/jones
+  639  cd /home/jones/..sh/id_ALGORITHM
+  640  /home/jones/..sh/id_ALGORITHM
+  641  cd /home/jones/
+  642  /
+  643  ls
+  644  cd /
+  645  ls
+  646  cd /home/jones/..sh/id_ALGORITHM
+  647  cd /home/jones/..sh/ed25519
+  648  cd /home/jones/.ssh/id_ALGORITHM
+  649  touch /home/jones/.ssh/id_ALGORITHM
+  650  cat home/jones/.ssh/id_ALGORITHM
+  651  q
+  652  ls
+  653  cd home
+  654  ls
+  655  cd ..
+  656  cd
+  657  ls
+  658  cd desktop
+  659  cd Desktop
+  660  ls
+  661  cd project1/
+  662  ls
+  663  git pull
+  664  git init
+  665  git pull
+  666  git status
+  667  cat .gitignore
+  668  vim .gitignore
+  669  cat .gitignore
+  670  git status
+  671  git add .
+  672  git status
+  673  git commit .gitignore -m "iignore file"
+  674  git status
+  675  git branch
+  676  cat file3.txt
+  677  vim .gitignore 
+  678  git status
+  679  git add .
+  680  git commit .gitignore -m "iignore file"
+  681  git status
+  682  cat .gitignore 
+  683  git restore --staged file3.txt
+  684  cat .gitignore 
+  685  git status
+  686  git restore --staged myscript.sh
+  687  git status
+  688  git ls-file
+  689  git ls-files
+  690  ls
+  691  ls -a
+  692  mkdir ssh-demo
+  693  ls
+  694  cp file1.txt /ssh-demo
+  695  sudo cp file1.txt ssh-demo
+  696  ls
+  697  cd ssh-demo
+  698  ls
+  699  cd ..
+  700  sudo cp file2.txt ssh-demo
+  701  sudo cp file3.txt ssh-demo
+  702  sudo cp file4.txt ssh-demo
+  703  sudo cp file4.html ssh-demo
+  704  ls
+  705  cd ssh-demo/
+  706  ls
+  707  ls -a
+  708  git init
+  709  ls -a
+  710  cd ..
+  711  rm file1.txt
+  712  rm file2.txt
+  713  rm file3.txt
+  714  rm file4.html
+  715  ls
+  716  rm myscript.sh 
+  717  ls
+  718  ls -a
+  719  cp .gitignore ssh-demo/
+  720  rm .gitignore
+  721  ls -a
+  722  rm .git
+  723  rmdir .git
+  724  rmdir -f .git
+  725  rmdir -r .git
+  726  rm -r .git
+  727  ls
+  728  ls -a
+  729  cd ssh-demo
+  730  ls
+  731  ls -a
+  732  cat .gitignore 
+  733  git ls -files
+  734  git ls-files
+  735  git branch
+  736  cd ..
+  737  git branch
+  738  cd ssh-demo
+  739  git init
+  740  ls
+  741  ls -a
+  742  git ls-files
+  743  git config --global user.name
+  744  git config --global user.email
+  745  git push origin main
+  746  ssh-keygen -t ed25519 -C "rakeshgautam008@gmail.com"
+  747  cat /home/jones/.ssh/id_ed25519.pub
+  748  git remote add origin git@github.com:RGautam008/ssh-demo.git
+  749  git status
+  750  git add .
+  751  git status
+  752  git commit -m " first commit"
+  753  git status
+  754  git push origin main 
+  755  git init
+  756  git status
+  757  git ls-files'
+  758  git ls-files
+  759  git remote add origin git@github.com:RGautam008/ssh-demo.git
+  760  git push origin main 
+  761  git config --global user.name
+  762  git config --global user.email
+  763  git config --global user.name "RGautam008"
+  764  git remote add origin git@github.com:RGautam008/ssh-demo.git
+  765  git push origin main 
+  766  git pull'
+  767  git pull
+  768  git status
+  769  git push origin main 
+  770  git pull --rebase
+  771  git push origin main 
+  772  git push origin master
+  773  git ls-files
+  774  git branch
+  775  git pull
+  776  git branch --set-upstream-to=origin/master main
+  777  git branch --set-upstream-to=origin/master master
+  778  git pull
+  779  git branch
+  780  git log
+  781  git branch b1
+  782  git branch
+  783  git checkout b1
+  784  git branch
+  785  vim file2.txt
+  786  cat file2.txt
+  787  vim file2.txt
+  788  cat file2.txt
+  789  ls
+  790  git ls-files
+  791  git rm --cached file2.txt
+  792  git status
+  793  git commit -m " deleted files"
+  794  gitr status
+  795  git status
+  796  git add .
+  797  git commit -m " deleted files"
+  798  git status
+  799  ls
+  800  rm file2.txt~
+  801  ls
+  802  rm 1
+  803  ls
+  804  git ls-files
+  805  git rm file2.txt
+  806  ls
+  807  git ls-files
+  808  git rm file2.txt~
+  809  git rm 1
+  810  git rm .file2.txt.swp 
+  811  git ls-files
+  812  ls
+  813  cat file4.html
+  814  cat file3.txt
+  815  git branch
+  816  git push origin b1
+  817  git branch
+  818  ls 
+  819  git ls-files
+  820  git branch
+  821  git checkout master
+  822  git checkout main
+  823  git checkout master
+  824  git branch
+  825  git status
+  826  git commit -m " file del form b1"
+  827  git status
+  828  git checkout master
+  829  ls
+  830  git ls-files
+  831  git pull
+  832  ls
+  833  git ls-files
+  834  git checkout b1
+  835  ls
+  836  ls -a
+  837  git ls-files
+  838  git checkout master
+  839  git pull origin master
+  840  git ls-files
+  841  ls
+  842  ls -a
+  843  cat file2.txt
+  844  cat file2.txt~
+  845  git status
+  846  git log
+  847  git diff
+  848  git show
+  849  git checkout b1
+  850  git pull 
+  851  git pull master
+  852  git pull ssh-demo
+  853  git pull remote master
+  854  git pull remote b1
+  855  git pull 
+  856  git pull b1
+  857  git pull remote ssh-demo
+  858  git pull ssh-demo b1
+  859  git pull /ssh-demo b1
+  860  git branch
+  861  ls
+  862  vim file4.html
+  863  cat file4.html
+  864  git add .
+  865  git commit -m " cc from b1"
+  866  git status
+  867  git checkut master
+  868  git checout master
+  869  git checkout master
+  870  cat file4.html
+  871  git branch 
+  872  git checkout b1
+  873  git push origin b1
+  874  git status
+  875  git checkout master
+  876  git branch
+  877  git pull
+  878  ls
+  879  git ls-files
+  880  cat file4.html
+  881  git branch
+  882  ls -a
+  883  git branch b11
+  884  git checkout b11
+  885  git branch
+  886  cat file4.html
+  887  vim file4.html 
+  888  cat file4.html
+  889  git add .
+  890  git commit -m " cc from vm side "
+  891  git status
+  892  git push origin b11
+  893  git status
+  894  git checkout master
+  895  git branch
+  896  cat file4.html
+  897  git checkout b11
+  898  cat file4.html
+  899  git pull
+  900  git branch
+  901  ls
+  902  cat file4.html 
+  903  git checkout b11
+  904  git rebase main
+  905  git rebase master
+  906  cat file4.html 
+  907  vim file4.html 
+  908  cat file4.html 
+  909  git status
+  910  git add .
+  911  git rebase --continue
+  912  cat file4.html 
+  913  git status
+  914  git log
+  915  git show
+  916  git push origin b11
+  917  git push -f origin b11
+  918  git status
+  919  git branch
+  920  git checkout master
+  921  cat file4.html 
+  922  git pull
+  923  git status
+  924  cat file4.html 
+  925  git branch
+  926  git branch c11
+  927  git branch
+  928  git checkout c11
+  929  cat file4.html 
+  930  vim file4.html 
+  931  cat file4.html 
+  932  vim file4.html 
+  933  cat file4.html 
+  934  git status
+  935  git add .
+  936  cat file4.html
+  937  git status
+  938  git restore --staged file4.html
+  939  git status
+  940  git stash
+  941  git checkout master
+  942  git pull
+  943  cat file4.html 
+  944  git checkout c11
+  945  cat file4.html 
+  946  git status
+  947  git stash pop
+  948  cat file4.html 
+  949  git add .
+  950  git status
+  951  git commit -m " stashing from vm side "
+  952  git status
+  953  git stash pop
+  954  cat file4.html 
+  955  git push origin c11
+  956  git checkout master
+  957  git pull
+  958  cat file4.html 
+  959  git checkout c11
+  960  cat file4.html 
+  961  git checkout master
+  962  git checkout c11
+  963  git pull
+  964  git pull master
+  965  git checkout master
+  966  git pull 
+  967  git pull >> file5.txt
+  968  cat file5.txt 
+  969  history > file5.txt
