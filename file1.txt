@@ -1,0 +1,282 @@
+total 8
+-rw-rw-r-- 1 jones jones    0 Apr 17 12:53 file1.txt
+-rw-rw-r-- 1 jones jones 7314 Apr 17 12:56 file1.txtls
+line
+lines
+:wq
+    1  whoami
+    2  pwd
+    3  cd /var/log
+    4  cat auth.og
+    5  cat auth.log
+    6  tail auth.og
+    7  tail auth.log
+    8  clear
+    9  ifconfig
+   10  sudo apt install net-tools
+   11  ifconfig
+   12  ipconfig
+   13  whoami
+   14  cd ..
+   15  cd desktop
+   16  cd Desktop
+   17  pwd
+   18  cd /home/Desktop
+   19  cd /var
+   20  ifconfig
+   21  cd /
+   22  cd ..
+   23  cd Ubuntu Desktop
+   24  cd /home
+   25  ls
+   26  cd jones
+   27  ls -l
+   28  cd Desktop
+   29  mkdir file1
+   30  mkdir -p file1/a/b/c
+   31  ls file1
+   32  ls file1 -p
+   33  ls file1 -a
+   34  rm -p file1
+   35  rm --p file1
+   36  rmdir --p file1
+   37  rmdir --p file1/a/b/c
+   38  clear
+   39  apt get install git
+   40  apt-get install git
+   41  sudo apt-get install git
+   42  git
+   43  git help
+   44  clear 
+   45  git help -a
+   46  clear
+   47  top
+   48  git --version
+   49  git --help
+   50  git help -g
+   51  git help -a
+   52  git commit
+   53  cd /home/git
+   54  find *.git
+   55  cd 
+   56  pwd
+   57  cd root
+   58  cd /
+   59  cd ..
+   60  cd
+   61  cd Desktop
+   62  cd
+   63  git repo
+   64  mkdir file1
+   65  rmdir file1
+   66  cd Desktop
+   67  mkdir file1
+   68  cd file1
+   69  cd ..
+   70  mv file1 dir1
+   71  cd dir1
+   72  touch file1.txt
+   73  cat > file1.txt
+   74  cat file1
+   75  cat file1.txt
+   76  clear
+   77  vi file1.txt
+   78  cat file1.txt
+   79  cat file1.txt -n
+   80  vim file1.txt
+   81  sudo apt install vim
+   82  vim file1.txt
+   83  cat file1.txt
+   84  top -h
+   85  top
+   86  clear
+   87  echo " global regular expression print"
+   88  grep line file1.txt
+   89  cat /var/log/auth.log >> file1.txt
+   90  cat file1.txt
+   91  cat file1.txt | grep uid
+   92  cat file1.txt | grep cron
+   93  grep "cron" file1.txt
+   94  grep line file.txt
+   95  grep "line" file1.txt
+   96  grep -c file1.txt
+   97  grep -c "cron" file1.txt
+   98  grep -o "cron" file1.txt
+   99  cat file1.txt -c 
+  100  cat -c file1.txt
+  101  cat file1.txt -n
+  102  cat ls -al > file1.txt
+  103  cat ls -al >> file1.txt
+  104  cat ls  >> file1.txt
+  105  cat /var/log/auth.log >> file1.txtls 
+  106  ls -l >> file1.txt
+  107  cat file1.txt
+  108  sudo
+  109  su -i
+  110  su i
+  111  su -- help
+  112  su --help
+  113  sudo -i
+  114  man cal
+  115  cal
+  116  sudo apt intall ncal
+  117  sudo apt intall cal
+  118  cal
+  119  yum intall --help
+  120  yum --help
+  121  ls
+  122  pwd
+  123  cal
+  124  sudo apt install ncal
+  125  ls
+  126  ls -l
+  127  ls /*.log
+  128  ls /var/log
+  129  ls /var/log/syslog
+  130  cat /var/log/syslog
+  131  ll
+  132  ls -l
+  133  ls -al
+  134  clear
+  135  rmdir --p dir
+  136  rmdir --p dir1
+  137  cd Desktop
+  138  rmdir --p dir1
+  139  rm --p dir1
+  140  tree
+  141  sudo apt intall tree
+  142  apt-get install python
+  143  sudo apt-get install python
+  144  cat/dev/sda
+  145  cat /dev/sda
+  146  sudo cat /dev/sda
+  147  pwd
+  148  cd dir1
+  149  ls 
+  150  ls -l
+  151  rm file1.txtls
+  152  ls
+  153  ls file1.txt
+  154  ls -l file1.txt
+  155  touch file1.txt 
+  156  ls -l file1.txt
+  157  chmod 400 file1.txt
+  158  ls -l file1.txt
+  159  chmod 664 file1.txt 
+  160  ls -l file1.txt
+  161  git --version
+  162  touch file2.txt
+  163  ls 
+  164  ls -l
+  165  cd ..
+  166  cd /var/log
+  167  cat kern.log
+  168  tail -f auth.log
+  169  df -h
+  170  df -hT
+  171  cd ..
+  172  cd Desktop
+  173  cd ..
+  174  exit
+  175  cd /home/Desktop
+  176  cd Jones
+  177  cd /home
+  178  cd Desktop
+  179  cd ..
+  180  pwd
+  181  whoami
+  182  cd /jones
+  183  whoami\
+  184  pwd
+  185  cd /Desktop
+  186  ls
+  187  sudo -i
+  188  ls
+  189  cd home
+  190  ls
+  191  cd..
+  192  cd 
+  193  ls
+  194  cd Desktop
+  195  cd dir1
+  196  ls
+  197  cd ..
+  198  cd
+  199  yum intall python
+  200  sudo apt install yum
+  201  sudo yum install python
+  202  sudo -i
+  203  yum intall python3
+  204  sudo yum install python3
+  205  sudo apt-get  install python3
+  206  python
+  207  python3
+  208  sudo -s
+  209  ls
+  210  cd /home
+  211  ls
+  212  sudo userdel Jones2 
+  213  ls
+  214  sudo userdel -r Jones2 
+  215  ls
+  216  cd ..
+  217  cd /home
+  218  ls
+  219  cd
+  220  pwd
+  221  sudo -u Jones2
+  222  sudo useradd Jones2 -m -s /bin/bash
+  223  cd /bin/bash
+  224  cd /home
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd /bin/bash
+  229  bd /bin
+  230  cd bin
+  231  ls
+  232  cd bash
+  233  ls -l
+  234  ll
+  235  ls -al
+  236  cd ..
+  237  ls
+  238  cat etc/password
+  239  cd etc
+  240  ls
+  241  cd /passwd
+  242  cat passwd
+  243  cd ..
+  244  cat /bin/bash
+  245  cat /etc/passwd
+  246  cd /home
+  247  ls
+  248  userdel Jones2
+  249  sudo userdel Jones2
+  250  ls
+  251  ls -l
+  252  ls
+  253  cd ..
+  254  ls
+  255  grep "jones" /etc/passwd
+  256  cd
+  257  cd dir1
+  258  ls
+  259  cd Desktop
+  260  cd dir1
+  261  ls
+  262  sed -e 's/line/LINE' file1
+  263  sed -e 'S/line/LINE' file1
+  264  sed -e 's/line/LINE/' file1
+  265  sed -e 's/line/LINE/' file1.txt
+  266  cat file1.txt
+  267  cat >> file1.txt
+  268  cat file.txt
+  269  cat file1.txt
+  270  sed -e 's/line/LINE/' file1.txt
+  271  sed 's/line/LINE/' file1.txt
+  272  cat file1.txt
+  273  sed 's/line/LINE/' file1.txt
+  274  cat file1.txt
+  275  history
+  276  history >> file1.txt
